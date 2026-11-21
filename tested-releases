@@ -1,0 +1,18 @@
+# RISC OS on Linux releases RoMac has been tested with:
+#   PACKAGE VERSION SHA256 [URL of RoMac's own copy]
+# Configure's Updates offers exactly these, and never anything newer
+# (tools/runway-update). Andy's repository keeps only the newest two builds of
+# each package, so each tested one is also kept in RoMac's public packages
+# repository, https://github.com/davidpsharp/romac-packages (a release per
+# tested set), and used from there once Andy's repository has moved on. Each
+# check fetches this list from that repository's main branch, so a new tested
+# set reaches RoMacs already out there.
+# To move on: in a test data folder, RUNWAY_ALLOW_UNTESTED=1, Updates, test,
+# then "tools/runway-update DATA pin https://github.com/davidpsharp/romac-packages/releases/download/TAG",
+# upload those .debs to release TAG, and replace these lines here and in that
+# repository's tested-releases.
+# Tested: RISC OS on Linux release 1.0.0057, what RoMac first shipped and was
+# used with day to day from 16 November 2026 (release baseline-2026-11-16).
+riscos-rom 5.31-29 c3f28f7ae3e918d1319a86a0bbb050d865186ae78792b94a8d0f902ac1c73c20 https://github.com/davidpsharp/romac-packages/releases/download/baseline-2026-11-16/riscos-rom-5.31-29-RISCOS.IMG
+riscos-support 1.0.0057-1 59441f48c01e9a3577cac701e162824248ff4a0c95bcb3ad7f7e3eaa44940c51 https://github.com/davidpsharp/romac-packages/releases/download/baseline-2026-11-16/riscos-support-1.0.0057-1-native.zip
+riscos-harddisc 1.0.0054-1 3fa5cc2ef13e1183e57cb514905704e47fb0da6def58c2c4c9c80176560dae68 https://github.com/davidpsharp/romac-packages/releases/download/baseline-2026-11-16/riscos-harddisc-1.0.0054-1-HardDisc4.zip

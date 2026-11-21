@@ -5,8 +5,9 @@ work, built on RISC OS Open's sources) that [RoMac](https://davidsharp.com/romac
 tested with, kept here so they stay available after RISC OS on Linux's own package repository
 has moved on. That repository keeps only the newest two builds of each package.
 
-RoMac's Configure → Updates offers only versions listed in RoMac's `tested-releases`, and
-checks each download against the SHA-256 given there. These files are those downloads.
+RoMac's Configure → Updates offers only the versions in `tested-releases` here (each RoMac
+fetches it when it checks for updates), and checks each download against the SHA-256 given
+there. These files are those downloads.
 
 ## Releases
 
