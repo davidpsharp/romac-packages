@@ -1,6 +1,6 @@
 # RoMac packages
 
-The releases of [RISC OS on Linux](https://github.com/adyoull/RISCOSonLinux) (Andy Youll's
+The releases of [RISC OS on Linux](https://github.com/adyoull/RISCOSonLinux) (Andrew Youll's
 work, built on RISC OS Open's sources) that [RoMac](https://davidsharp.com/romac) has been
 tested with, kept here so they stay available after RISC OS on Linux's own package repository
 has moved on. That repository keeps only the newest two builds of each package.
@@ -25,6 +25,9 @@ there. These files are those downloads.
   `riscos-support` and `riscos-harddisc`, exactly as published in its package repository
   (https://adyoull.github.io/riscos-rolpkg), each checked against the SHA-256 in that
   repository's package lists when downloaded (18 and 21 November 2026).
+  RoMac offers `riscos-rom` 5.31-30, `riscos-support` 1.0.0081-1 and `riscos-harddisc`
+  1.0.0072-1 from here (since 22 November 2026): the first set with RISC3D, for 3D on the
+  Mac's GPU.
 
 Each release has a `SHA256SUMS` file; check with `shasum -a 256 -c SHA256SUMS`.
 

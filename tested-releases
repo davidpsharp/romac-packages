@@ -11,8 +11,11 @@
 # then "tools/runway-update DATA pin https://github.com/davidpsharp/romac-packages/releases/download/TAG",
 # upload those .debs to release TAG, and replace these lines here and in that
 # repository's tested-releases.
-# Tested: RISC OS on Linux release 1.0.0057, what RoMac first shipped and was
-# used with day to day from 16 November 2026 (release baseline-2026-11-16).
-riscos-rom 5.31-29 c3f28f7ae3e918d1319a86a0bbb050d865186ae78792b94a8d0f902ac1c73c20 https://github.com/davidpsharp/romac-packages/releases/download/baseline-2026-11-16/riscos-rom-5.31-29-RISCOS.IMG
-riscos-support 1.0.0057-1 59441f48c01e9a3577cac701e162824248ff4a0c95bcb3ad7f7e3eaa44940c51 https://github.com/davidpsharp/romac-packages/releases/download/baseline-2026-11-16/riscos-support-1.0.0057-1-native.zip
-riscos-harddisc 1.0.0054-1 3fa5cc2ef13e1183e57cb514905704e47fb0da6def58c2c4c9c80176560dae68 https://github.com/davidpsharp/romac-packages/releases/download/baseline-2026-11-16/riscos-harddisc-1.0.0054-1-HardDisc4.zip
+# Tested: ROM 5.31-30, support 1.0.0081-1, HardDisc4 1.0.0072-1 (the set of
+# 21 November 2026, release debs-2026-11-21): used day to day by David from
+# 21 November and tested with RISC3D (TORCS on the Mac's GPU) on 22 November;
+# HardDisc4 1.0.0072 is the first with !RISC3D. Before it: 1.0.0057
+# (release baseline-2026-11-16), what RoMac first shipped.
+riscos-rom 5.31-30 0778b6e3f8940e8f614f94cdbe6f2b2f672e5e61b2e2ed0f9cd7f0080e672e63 https://github.com/davidpsharp/romac-packages/releases/download/debs-2026-11-21/riscos-rom_5.31-30_arm64.deb
+riscos-support 1.0.0081-1 aba61ceda382b19c1bd570cc421a90bb0ba0103516ef92ecc6d82457218599cf https://github.com/davidpsharp/romac-packages/releases/download/debs-2026-11-21/riscos-support_1.0.0081-1_arm64.deb
+riscos-harddisc 1.0.0072-1 695a16b49f1fc16fe0e0272e77eeb2f3262b155fc0a632ba8777a869b954cad7 https://github.com/davidpsharp/romac-packages/releases/download/debs-2026-11-21/riscos-harddisc_1.0.0072-1_all.deb
